@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .image-top{
+      margin-top: -40%;
+      margin-left: -15%;
+      overflow: hidden;
+    }
+    .image-bottom{
+      margin-bottom: -40%;
+      margin-left: 50%;
+      background-clip: content-box;
+    }
+
+    .img-bottom{
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="body1">
+    <div>
+      <img src="./images/bg-pattern-top.svg" class="image-top" alt="">
+    </div>
+    <div class="img-bottom">
+      <img src="./images/bg-pattern-bottom.svg" class="image-bottom" alt="">
+    </div>
+    <div class="main-content">
+      <div class="top1">
+        <img src="./images/bg-pattern-card.svg" class="cardpattern" alt="cardpattern">
+      </div>
+      <div>
+        <img src="./images/image-victor.jpg" class="victor" alt="">
+      </div>
+      <div class="middle1">
+        <p><span class="name1">
+            <h3 style="margin-bottom:8px;">Victor Crest
+          </span><span class="age">26</span></h3>
+          <span class="bottominfo">London</span>
+        </p>
+      </div>
+      <hr>
+      <div class="followers">
+        <div class="stats">
+          <h3>80K</h3> 
+          <h6>Follower</h6>
+        </div><!--
+        --><div class="stats">
+          <h3>803K</h3>
+          <h6>Likes</h6>
+        </div><!--
+        --><div class="stats">
+          <h3>1.4k</h3>
+          <h6> Photos</h6>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+  </div>
+  
+</body>
+
+</html>
