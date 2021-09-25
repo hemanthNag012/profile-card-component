@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-image: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
+      background-repeat: no-repeat,no-repeat;
+      background-position: top 55% left -40%,top -40% right -40%;
+      background-size: 900px,1000px;
+    }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    @media (max-width:1328px) {
+      body{
+        background-size: 700px,800px;
+        background-position: top 55% left -30%,top -60% right -40%;
+      }
+
+      @media (max-width:1070px) {
+      body {
+        background-size: 500px,600px;
+        background-position: top 40% left -15%,top -80% right -40%;
+      }
+
+      @media  (max-width:760px){
+        body{
+          background-size: 500px,600px;
+          background-position: top 40% left -15%,top -80% right -40%;
+        }
+        @media  (max-width:500px){
+        body{
+          background-size: 200px,300px;
+          background-position: top 20% left 15%,top -70% right -20%;
+        }
+        
+      }
+    }
+      
+    }
+
+    /* .image-top{
+      margin-top: -50%;
+      margin-left: -25%;
+      overflow: hidden;
+    }
+    .image-bottom{
+      margin-bottom: -60%;
+      float: right;
+    }
+
+    .img-bottom{
+      overflow: hidden;
+      background-attachment: fixed;
+      position: absolute;
+    }
+    .lol{
+      float: right;
+      overflow: hidden;
+      margin-top: 21%;
+    }
+
+    @media (max-width:990px) {
+      .image-top{
+        margin-top: -70%;
+        margin-left: -50%;
+      }
+
+      
+    } */
+
+
+  </style>
+</head>
+
+<body>
+  <div class="body1">
+    <!-- <div class="img-bottom">
+      <img src="./images/bg-pattern-top.svg" class="image-top" alt="">
+    </div>
+    <div class="lol">
+      <img src="./images/bg-pattern-bottom.svg" class="image-bottom" alt="">
+    </div> -->
+    <div class="main-content">
+      <div class="top1">
+        <img src="./images/bg-pattern-card.svg" class="cardpattern" alt="cardpattern">
+      </div>
+      <div>
+        <img src="./images/image-victor.jpg" class="victor" alt="">
+      </div>
+      <div class="middle1">
+        <p><span class="name1">
+            <h3 style="margin-bottom:8px; margin-top: 10px;">Victor Crest
+          </span><span class="age">26</span></h3>
+          <span class="bottominfo">London</span>
+        </p>
+      </div>
+      <hr>
+      <div class="followers">
+        <div class="stats">
+          <h3>80K</h3> 
+          <h6>Follower</h6>
+        </div><!--
+        --><div class="stats">
+          <h3>803K</h3>
+          <h6>Likes</h6>
+        </div><!--
+        --><div class="stats">
+          <h3>1.4k</h3>
+          <h6> Photos</h6>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </div>
+  </div>
+  
+</body>
+
+</html>
